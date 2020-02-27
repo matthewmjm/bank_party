@@ -12,4 +12,7 @@ class Bank
     def self.all
         @@all
     end
+
+    
 end 
+

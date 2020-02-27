@@ -42,6 +42,9 @@ Account belongs to a bank and a customer
 - pry
 - require_all
 
+## Account Model
+attributes: number, open_year=2020, balance, customer, bank
+
 #### Getting Practice
 
 You already have your class method .all (Account.all, AccountHolder.all, Bank.all) as well as methods to read all the attributes of instances in those classes. Use those to help you build out the following methods:
@@ -63,7 +66,7 @@ You already have your class method .all (Account.all, AccountHolder.all, Bank.al
 
 
 1. Bank#new_account(number, balance, customer)
-    - Takes in 3 arguments, the account number, nickname, and customer object and will create a new account associated with the bank instance the method was called on.
+    - Takes in 3 arguments, the account number, balance, and customer object and will create a new account associated with the bank instance the method was called on.
 
 1. Bank#oldest_account
     - Method returns the oldest account associated with the specified bank.
