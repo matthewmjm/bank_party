@@ -19,7 +19,7 @@ act4 = Account.new("999983", 100000, credit_union, john, 2005)
 act5 = Account.new("5238756", 16000, credit_union, bob)
 act6 = Account.new("34254", 90000, chase, bob)
 act7 = Account.new("553563", 83325, cap_one, john)
-
+act8 = Account.new("748237", 3, credit_union, schmoe)
 
 binding.pry
 
